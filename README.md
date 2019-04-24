@@ -1,13 +1,7 @@
 # C#2ClassWeek2
-Chapter 13, Exercise 13.10, Page 543; Miles Per Gallon Exercise, Using Exception Handling from book Visual C# How to Program
 
-## Set Up
-1. The requirements for this assignment are to create an app that accepts two inputs from the user.
-One is the number of miles driven and the second is the number of gallons used. Once the inputs
-are given the application should calculate the miles per gallon. Then the application will ask if
-the user wants to continue. The user will input yes or no.
+Assignment instructions and what the output should look like can be viewed [here](https://github.com/camhelkuik/week-2/blob/master/Assign_2_Exception(2).pdf)
 
-2. For the first two inputs of miles driven and gallons used the application should use exception
-handling to check for the proper input. If a user inputs character(s) then the FormatException
-should be handled and an error message should be printed out on the screen for the user.
- 
+The exercise from the book Visual C# How to Program
+
+Create an app that inputs miles driven and gallons used, and calculates miles per gallon. The example should use exception handling to process the FormatExceptions that occur when converting the input strings to doubles. If invalid data is entered, display a message informing the user.
